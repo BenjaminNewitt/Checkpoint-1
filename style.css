@@ -1,0 +1,24 @@
+.bg-header {
+  background-image: url("https://picsum.photos/id/931/800/800");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1b2a49;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-cards {
+  background-color: #c9d1d3;
+}
