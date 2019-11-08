@@ -23,6 +23,18 @@
   background-color: #c9d1d3;
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-card-body {
+  background-color: #465881;
+}
+
+.card-margin {
+  margin-bottom: 20rem;
+}
+
 .card {
   left: 0;
   right: 0;
