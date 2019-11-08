@@ -22,3 +22,16 @@
 .bg-cards {
   background-color: #c9d1d3;
 }
+
+.card {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.card-body .btn {
+  left: 0;
+  right: 0;
+  max-width: 50%;
+  margin: auto;
+}
