@@ -17,7 +17,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="d-flex flex-column">
+  <body>
     <!-- TODO content -->
     <header class="container-fluid bg-header">
       <div class="row d-flex flex-row justify-content-between pt-3">
@@ -89,19 +89,82 @@
       </div>
     </header>
     <main>
-      <div
-        class="container-fluid bg-card-container d-flex flex-row justify-content-around"
-      >
-        <div class="row">
-          <div class="col-12 col-md-3 pt-md-5 card-col d-inline-block">
+      <div class="container-fluid">
+        <div
+          class="row bg-card-row d-flex justify-content-around"
+          id="row-margin"
+        >
+          <div
+            class="col-12 col-md-4 pt-5 card-col d-flex justify-content-center"
+          >
             <div class="card-whole">
               <div
-                class="card bg-none border-0 text-cente"
+                class="card bg-none border-0 text-center m-0 card-spill;"
                 style="width: 15rem;"
               >
                 <img
                   src="https://picsum.photos/id/519/200/200"
-                  class="mt-5 mb-3"
+                  class="mb-3"
+                  alt=""
+                />
+                <div class="position-relative">
+                  <div class="card-body bg-card text-center position-absolute">
+                    <h5 class="card-title bg-card text-center">Card title</h5>
+                    <p class="card-text text-center bg-card mb-1">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <div class="position-relative">
+                      <a href="#" class="btn btn-primary position-absolute pt-0"
+                        >Learn More</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-4 pt-5 card-col d-flex justify-content-center"
+          >
+            <div class="card-whole">
+              <div
+                class="card bg-none border-0 text-center m-0 card-spill;"
+                style="width: 15rem;"
+              >
+                <img
+                  src="https://picsum.photos/id/519/200/200"
+                  class="mb-3"
+                  alt=""
+                />
+                <div class="position-relative">
+                  <div class="card-body bg-card text-center position-absolute">
+                    <h5 class="card-title bg-card text-center">Card title</h5>
+                    <p class="card-text text-center bg-card mb-1">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <div class="position-relative">
+                      <a href="#" class="btn btn-primary position-absolute pt-0"
+                        >Learn More</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-4 pt-5 card-col d-flex justify-content-center"
+          >
+            <div class="card-whole">
+              <div
+                class="card bg-none border-0 text-center m-0 card-spill;"
+                style="width: 15rem;"
+              >
+                <img
+                  src="https://picsum.photos/id/519/200/200"
+                  class="mb-3"
                   alt=""
                 />
                 <div class="position-relative">
@@ -122,13 +185,9 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="container-fluid">
+
         <div class="row">
           <div class="col"></div>
-          <div class="col"></div>
-        </div>
-        <div class="row">
           <div class="col"></div>
         </div>
       </div>
