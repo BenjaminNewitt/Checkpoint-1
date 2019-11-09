@@ -90,28 +90,34 @@
     </header>
     <main>
       <div
-        class="container-fluid bg-cards d-flex flex-row justify-content-around"
+        class="container-fluid bg-card-container d-flex flex-row justify-content-around"
       >
         <div class="row">
-          <div class="col-12 col-md-3 pt-md-5 d-inline-block">
-            <div
-              class="card bg-none border-0 text-center"
-              style="width: 15rem;"
-            >
-              <img
-                src="https://picsum.photos/id/519/200/200"
-                class="mt-5 mb-3"
-                alt=""
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text position-relative text-center">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary position-absolute"
-                  >Go somewhere</a
-                >
+          <div class="col-12 col-md-3 pt-md-5 card-col d-inline-block">
+            <div class="card-whole">
+              <div
+                class="card bg-none border-0 text-cente"
+                style="width: 15rem;"
+              >
+                <img
+                  src="https://picsum.photos/id/519/200/200"
+                  class="mt-5 mb-3"
+                  alt=""
+                />
+                <div class="position-relative">
+                  <div class="card-body bg-card text-center position-absolute">
+                    <h5 class="card-title bg-card text-center">Card title</h5>
+                    <p class="card-text text-center bg-card mb-1">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <div class="position-relative">
+                      <a href="#" class="btn btn-primary position-absolute pt-0"
+                        >Learn More</a
+                      >
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
