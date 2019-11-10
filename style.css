@@ -1,3 +1,13 @@
+@media screen and (max-width: 844px) {
+  div .card-row {
+    height: 1350px;
+  }
+}
+
+body {
+  background-color: #c9d1d3;
+}
+
 .bg-header {
   background-image: url("https://picsum.photos/id/931/800/800");
   background-repeat: no-repeat;
@@ -27,29 +37,13 @@
   justify-content: center;
 }
 
-#row-margin {
-  /* margin-bottom: -200px; */
-}
-
-.card-col {
-  /* margin-bottom: -200px; */
-}
-
-.card-whole {
-  position: relative;
-  margin-bottom: 200px;
-}
-
-.card-spill {
-  position: absolute;
-}
-
-.bg-card-row {
+.card-row {
   background-color: #1b2a49;
+  height: 65vh;
 }
 
 .bg-card {
-  background-color: #c9d1d3;
+  background-color: #00909e;
 }
 
 .card img {
@@ -70,6 +64,19 @@
   background-color: transparent;
 }
 
-hr {
-  color: #1b2a49;
+.col-empty {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.row-content {
+  border-top: 3px solid;
+  border-color: #1b2a49;
+}
+
+.logo-row {
+  background-color: #465881;
+}
+#logo {
+  font-size: 3em;
 }
