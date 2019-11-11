@@ -1,15 +1,20 @@
 @media screen and (max-width: 844px) {
   div .card-row {
-    height: 1350px;
+    height: 1325px;
   }
 }
 
+p {
+  color: black;
+}
+
 i {
+  font-size: 3em;
+  color: #1b2a49;
   text-shadow: 5px 5px 5px gray;
 }
 
 header {
-  color: #c9d1d3;
   font-size: 14pt;
   text-shadow: 1px 1px gray;
 }
@@ -106,10 +111,6 @@ body {
   text-shadow: 1px 1px 1px grey;
 }
 
-#logo {
-  font-size: 3em;
-}
-
 footer {
   border-top: 3px solid;
   border-color: #c9d1d3;
@@ -119,6 +120,7 @@ footer {
 }
 
 footer p {
+  color: #c9d1d3;
   font-size: 8pt;
   margin: 0;
   margin-bottom: 1em;
