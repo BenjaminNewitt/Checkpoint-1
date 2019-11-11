@@ -26,6 +26,7 @@ header {
 
 header .btn {
   width: 100%;
+  background-image: linear-gradient(to right, #1b2a49, #465881);
 }
 
 .bg-header {
