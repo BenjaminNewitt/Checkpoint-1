@@ -97,7 +97,7 @@ header .btn {
 }
 
 .row-content {
-  border-top: 3px solid;
+  border-top: 10px solid;
   border-color: #1b2a49;
 }
 #img-main {
@@ -114,7 +114,7 @@ header .btn {
 }
 
 footer {
-  border-top: 3px solid;
+  border-top: 10px solid;
   border-color: #c9d1d3;
   background-color: #1b2a49;
   color: #c9d1d3;
