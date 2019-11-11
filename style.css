@@ -105,7 +105,8 @@ header .btn {
 }
 
 .logo-row {
-  background-color: #465881;
+  background-color: ;
+  background-image: linear-gradient(to right, #465881, #1b2a49);
 }
 
 .logo-row h2 {
